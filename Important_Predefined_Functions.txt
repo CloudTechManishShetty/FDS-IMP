@@ -1,0 +1,41 @@
+1. Function to view basic Statistical details of data: 
+-->  Use describe().
+     e.g. Data=pd.read_csv('Any_dataset.csv')
+          print(Data.describe())
+
+2. Function to print First n rows from any given Dataset:
+--> Use head(n)
+    e.g. Data=pd.read_csv('Any_dataset.csv')
+         print(Data.head(10)) //This will print First 10 rows from Given Dataset.
+
+3. Function to print Last n rows from any given Dataset:
+--> Use tail(n)
+    e.g. Data=pd.read_csv('Any_dataset.csv')
+         print(Data.tail(10)) //This will print last 10 rows from Given Dataset.
+
+4. Function to print Random n rows from any given Dataset:
+--> Use sample(n)
+    e.g. Data=pd.read_csv('Any_dataset.csv')
+         print(Data.sample(10)) //This will print random 10 rows from Given Dataset.
+
+5. Function to display Shape of any Datset:
+--> Use datset.shape //shape is keyword.
+    e.g. Data=pd.read_csv('Any_dataset.csv')
+         print(Data.shape)
+
+6. Code to print the Shape of any Dataset(Shape includes different Parameters like no of Columns, rows etc.)
+--> 1. Use print(dataset.shape[0]) // This will print number of Rows.
+    2. Use print(dataset.shape[1]) // This will print number of Columns.
+
+7. Code to Print the data types of each column:
+--> Use print(datset.dtypes)
+
+8. Code to Print the feature names (column names):
+--> Use print(list(data.columns))
+
+9. Function to delete Missing or null Values from a dataframe:
+--> Use df.dropna(), df.drop_duplicates()
+
+10. Array Related Functions:
+--> 1. To create Flatted Array: existingArray.flatten()
+    2. np(numpy) functions: np.array(), np.max(), np.min(), np.average(exarr,weightarr);
